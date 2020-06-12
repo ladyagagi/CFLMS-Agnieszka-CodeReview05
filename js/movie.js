@@ -24,7 +24,7 @@ $(document).ready(function(){
 											<img src="img/like.png" alt=""</p>
 									</div>
 									<div>
-										<div class="counterBox">${like}</div>
+										<div id="key" class="counterBox">${like}</div>
 									</div> 
 								</div> 
 						</div>		
@@ -44,6 +44,29 @@ for ( let i = 0; i < movieLikeCounter.length; i++) {
 	}
 }
 
+$('#sort').click(sortClick);
+
+function sortClick (){
+// 	for ( let i = 0; i < countNum.length; i++) {
+		console.log(123);
+};
+
+sortClick();
 
 });
+
+//var wert = document.querySelector(".counterBox")
+
+// function zeigWert () {
+// 	var zeigWert = document.querySelector(".counterBox").getAttribute
+
+
+
+// console.log(zeigWert); }
+
+//
+
+
+
+// var = []
 
