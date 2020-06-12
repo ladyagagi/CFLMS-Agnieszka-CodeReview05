@@ -1,0 +1,122 @@
+/* colors: 
+1D2229 dunkelgrau
+454445 nav color
+181818 schwarz
+32A23C grün
+B4B4B4 hellgrau
+CECFCF Movie schriftfarbe */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Arial Black, Arial Narrow, sans-serif;
+	color: #fff;
+}
+
+header {
+	background: #181818;
+	text-align: center;
+	padding:  3.3vw;
+}
+
+nav {
+	padding: 1.5vw;
+	font-size: 1.8vw;
+	background: #454445; 	
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	background: #1D2229; 
+	width:  100%;
+	height: auto;
+}
+
+#heading {
+	text-align: center;
+	padding: 2vw;
+}
+
+#moviesContainer {
+	width: 90%;
+	margin:  0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.movieBox {
+	width:  35vw;
+	background: #181818;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0.5vw;
+	margin: 1vw;
+	color: #B4B4B4;
+}
+
+img {
+	width: 12vw;
+	padding-right: 0.5vw;
+	border-radius: 5px 5px;
+}
+
+.movieInfo {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;	
+}
+.movieLikeContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 1vw;
+}
+
+.movieLikeCounter{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+
+.movieLike {
+	color: #32A23C;
+	font-size: 1.8vw 
+}
+
+.counterBox {
+	background: #32A23C;
+	border-radius: 50%;
+	text-align: center;
+	width: 3.8vw;
+	height: 3.8vw;
+	right: 1px;
+	padding-top: 30%;
+}
+
+.likeImg {
+    width: 2.5vw;
+    height: 2.5vw;
+   background: url(img/like1.png);
+   /*  padding-right: 0.5vw;
+    padding-left: 0.5vw; */
+    /* border: 1px solid red; */
+}
+
+footer {
+	text-align: center;
+	background:  #181818;
+	padding: 4.3vw;
+}
